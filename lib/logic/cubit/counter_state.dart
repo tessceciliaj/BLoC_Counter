@@ -1,6 +1,6 @@
 part of 'counter_cubit.dart';
 
-class CounterState {
+class CounterState extends Equatable {
   CounterState({
     required this.counterValue,
     required this.wasIncremented,
@@ -8,4 +8,7 @@ class CounterState {
 
   int counterValue;
   bool wasIncremented;
+
+  @override
+  List<Object> get props => [counterValue, wasIncremented];
 }
