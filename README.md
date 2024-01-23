@@ -1,5 +1,3 @@
-Certainly! Here's a summary of the key points from your notes on the BLoC course:
-
 ### BLoC Core Concepts:
 
 1. **Stream:**
